@@ -1,0 +1,122 @@
+.banner .center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner .center-text  h1 {
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 42px;
+}
+
+.banner .center-text  h2 {
+    font-size: 23px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+
+.card {
+    background: #F9F9FA;
+    padding: 20px;
+    border: 0;
+    margin-bottom: 15px;
+}
+
+.card .time {
+    font-size: 14px;
+    text-align: center;
+}
+
+.card .time i {
+    margin-right: 5px;
+}
+
+.card .img {
+    position: relative;
+}
+
+.card .img .tag {
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 1px 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    position: absolute;
+    top: 5px;
+}
+
+.card .img .usado {
+    background: #FF6005;
+}
+
+.card .img .novo {
+    background: #0575ff;
+}
+
+.card .img .img-product {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info h2 {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+    margin: 15px 0;
+}
+
+.info .btn {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    border-radius: 4px;
+    background: #1DC21D;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.questions {
+    background: #F9F9FA;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+.questions h3 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.questions .card {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.questions .card:last-child {
+    margin-bottom: 0;
+}
+
+.questions .card-header {
+    background: #FFF;
+    border-radius: 10px;
+    border-bottom: 0;
+    padding: 8px 10px;
+}
+
+.questions .card .card-header .btn-link {
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0;
+}
+
+.questions .card-body {
+    background: #FFF;
+}
